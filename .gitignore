@@ -1,0 +1,17 @@
+# Ignore Rust build artifacts
+/target
+**/*.rs.bk
+
+# Ignore IDE and editor files
+/.idea
+/.vscode
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Ignore Cargo.lock for libraries
+Cargo.lock
+
+# Ignore MacOS specific files
+.DS_Store
